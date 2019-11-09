@@ -1,8 +1,8 @@
 import React from 'react';
 
 function ChatInput() {
-    return (
-      <div className="chatInputWrapper">
+  return (
+    <div className="chatInputWrapper">
       <div className="chatInput">
         <div className="chatInput__colRow">
           <div className="chatInput__col chatInput__colInput" id="chatInput__colInput">
@@ -338,7 +338,7 @@ function ChatInput() {
         </div>
       </div>
     </div>
-    )
+  )
 }
 
 export default ChatInput;
