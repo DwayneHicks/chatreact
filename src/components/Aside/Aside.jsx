@@ -87,15 +87,15 @@ function Aside() {
                             <div className="globalSettingsSelect">
                                 <select>
                                     <option value="0">Выбрать период</option>
-                                    <option value="1">Сегодня <span>4500</span></option>
+                                    <option value="1">Сегодня 4500</option>
                                     <option value="2">Вчера 4328</option>
                                     <option value="3" disabled>По времени</option>
-                                    <option value="4" checkbx>Сначала новые 3455</option>
-                                    <option value="5" checkbx>Сначала старые 543</option>
+                                    <option value="4" className="checkbx">Сначала новые 3455</option>
+                                    <option value="5" className="checkbx">Сначала старые 543</option>
                                     <option value="6" disabled>По длине</option>
-                                    <option value="7" checkbx>Любая длина</option>
-                                    <option value="8" checkbx>Сначала длинные</option>
-                                    <option value="9" checkbx>Сначала короткие</option>
+                                    <option value="7" className="checkbx">Любая длина</option>
+                                    <option value="8" className="checkbx">Сначала длинные</option>
+                                    <option value="9" className="checkbx">Сначала короткие</option>
                                     <option value="10">Выбрать период</option>
                                 </select>
                             </div>
@@ -109,7 +109,7 @@ function Aside() {
                 <div className="asideMessage__messageOuter">
                     <div className="asideMessage__message messageBox unread">
                         <div className="messageBox__topLine">
-                            <div className="messageBox__leftInfo"><img className="messageBox__photo" src={icon_1} />
+                            <div className="messageBox__leftInfo"><img className="messageBox__photo" alt={icon_1} src={icon_1} />
                                 <div className="messageBox__name">ksusharekeda</div>
                             </div>
                             <div className="messageBox__rightInfo">
@@ -127,7 +127,7 @@ function Aside() {
                     </div>
                     <div className="asideMessage__message messageBox">
                         <div className="messageBox__topLine">
-                            <div className="messageBox__leftInfo"><img className="messageBox__photo" src={icon_2} />
+                            <div className="messageBox__leftInfo"><img className="messageBox__photo" alt={icon_2} src={icon_2} />
                                 <div className="messageBox__name">Nora Banks</div>
                             </div>
                             <div className="messageBox__rightInfo">
@@ -145,7 +145,7 @@ function Aside() {
                     </div>
                     <div className="asideMessage__message messageBox">
                         <div className="messageBox__topLine">
-                            <div className="messageBox__leftInfo"><img className="messageBox__photo" src={icon_3} />
+                            <div className="messageBox__leftInfo"><img className="messageBox__photo" alt={icon_3} src={icon_3} />
                                 <div className="messageBox__name">Stella Griffin</div>
                             </div>
                             <div className="messageBox__rightInfo">
@@ -163,7 +163,7 @@ function Aside() {
                     </div>
                     <div className="asideMessage__message messageBox">
                         <div className="messageBox__topLine">
-                            <div className="messageBox__leftInfo"><img className="messageBox__photo" src={icon_4} />
+                            <div className="messageBox__leftInfo"><img className="messageBox__photo" alt={icon_4} src={icon_4} />
                                 <div className="messageBox__name">Lena Alexander</div>
                             </div>
                             <div className="messageBox__rightInfo">
@@ -181,7 +181,7 @@ function Aside() {
                     </div>
                     <div className="asideMessage__message messageBox">
                         <div className="messageBox__topLine">
-                            <div className="messageBox__leftInfo"><img className="messageBox__photo" src={icon_5} />
+                            <div className="messageBox__leftInfo"><img className="messageBox__photo" alt={icon_5} src={icon_5} />
                                 <div className="messageBox__name">Madge Lambert</div>
                             </div>
                             <div className="messageBox__rightInfo">
@@ -199,7 +199,7 @@ function Aside() {
                     </div>
                     <div className="asideMessage__message messageBox">
                         <div className="messageBox__topLine">
-                            <div className="messageBox__leftInfo"><img className="messageBox__photo" src={icon_1} />
+                            <div className="messageBox__leftInfo"><img className="messageBox__photo" alt={icon_1} src={icon_1} />
                                 <div className="messageBox__name">Kate Burke</div>
                             </div>
                             <div className="messageBox__rightInfo">
@@ -217,7 +217,7 @@ function Aside() {
                     </div>
                     <div className="asideMessage__message messageBox">
                         <div className="messageBox__topLine">
-                            <div className="messageBox__leftInfo"><img className="messageBox__photo" src={icon_1} />
+                            <div className="messageBox__leftInfo"><img className="messageBox__photo" alt={icon_1} src={icon_1} />
                                 <div className="messageBox__name">ksusharekeda</div>
                             </div>
                             <div className="messageBox__rightInfo">
@@ -235,7 +235,7 @@ function Aside() {
                     </div>
                     <div className="asideMessage__message messageBox">
                         <div className="messageBox__topLine">
-                            <div className="messageBox__leftInfo"><img className="messageBox__photo" src={icon_1} />
+                            <div className="messageBox__leftInfo"><img className="messageBox__photo" alt={icon_1} src={icon_1} />
                                 <div className="messageBox__name">ksusharekeda</div>
                             </div>
                             <div className="messageBox__rightInfo">

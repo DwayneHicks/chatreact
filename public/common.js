@@ -85,7 +85,7 @@ window.onload = function() {
         if (selElmnt.options[j].hasAttribute("disabled")) {
           c = document.createElement("DIV");
           c.classList.add('dis')
-        } else if (selElmnt.options[j].hasAttribute("checkbx")) {
+        } else if (selElmnt.options[j].classList.contains("checkbx")) {
           c = document.createElement("DIV");
           c.classList.add('check')
         } else {
