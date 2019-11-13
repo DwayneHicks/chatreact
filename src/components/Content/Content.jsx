@@ -5,20 +5,22 @@ import ChatInput from '../ChatInput/ChatInput';
 import ChatWindow from '../ChatWindow/ChatWindow';
 import ChatWindowText from '../ChatWindowText/ChatWindowText';
 import ChatWindowAnswer from '../ChatWindowAnswer/ChatWindowAnswer';
+import Moderation from '../Moderation/Moderation';
 import First from '../First/First';
 import {BrowserRouter, Route} from "react-router-dom";
 
 function Content() {
   return (
     <BrowserRouter>
-    <div className="app__asideChatWindow asideChatWindow">
-      <Header />
-      <Route component={ChatWindow} path='/index'/>
-      <Route component={First} exact path='/'/>
-      <Route component={ChatWindowText} path='/index_2'/>
-      <Route component={ChatWindowAnswer} path='/index_3'/>
-      <ChatInput />
-    </div>
+      <div className="app__asideChatWindow asideChatWindow">
+        <Header />
+        <Route component={ChatWindow} path='/index'/>
+        <Route component={First} exact path='/'/>
+        <Route component={ChatWindowText} path='/index_2'/>
+        <Route component={ChatWindowAnswer} path='/index_3'/>
+        <Route component={Moderation} path='/layout_moderation'/>
+        <ChatInput />
+      </div>
     </BrowserRouter>
   )
 }

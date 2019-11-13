@@ -8,7 +8,8 @@ function First() {
       <li className="startLink"><NavLink to="/index">Index.html</NavLink></li>
       <li className="startLink"><NavLink to="/index_2">Index_2.html</NavLink></li>
       <li className="startLink"><NavLink to="/index_3">Index_3.html</NavLink></li>
-      <li className="startLink"><NavLink to="#">Страница 5</NavLink></li>
+      <li className="startLink"><NavLink to="/index_errors">Index_errors.html</NavLink></li>
+      <li className="startLink"><NavLink to="/layout_moderation">Layout_moderation.html</NavLink></li>
     </ul>
   )
 }
